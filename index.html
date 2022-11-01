@@ -23,9 +23,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg" id="myNavbar">
       <div class="container">
-        <a class="navbar-brand" href="#">Logo</a>
+        <a class="navbar-brand" href="#myPage">Logo</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -79,61 +79,83 @@
     </div>
 
     <div id="about" class="container-fluid">
-        <div class="row">
-          <div class="col-sm-8">
-            <h2>About Company Page</h2><br>
-            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <br><button class="btn btn-default btn-lg border border-1">Get in Touch</button>
-          </div>
-          <div class="col-sm-4">
-            <i class="bi bi-bar-chart-line-fill"></i>
-          </div>
+      <div class="row">
+        <div class="col-sm-8">
+          <h2>About Company Page</h2>
+          <br />
+          <h4>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </h4>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat
+            non proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+          <br /><button class="btn btn-default btn-lg border border-1">
+            Get in Touch
+          </button>
+        </div>
+        <div class="col-sm-4">
+          <i class="bi bi-bar-chart-line-fill"></i>
         </div>
       </div>
+    </div>
 
-
-      <div id="services" class="container-fluid text-center">
-        <h2>SERVICES</h2>
-        <h4>What we offer</h4>
-        <br>
-        <div class="row slideanim">
-          <div class="col-sm-4">
-            <i class="bi bi-globe "></i>
-            <h4>POWER</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-          </div>
-          <div class="col-sm-4">
-            <span class="glyphicon glyphicon-heart logo-small"></span>
-            <h4>LOVE</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-          </div>
-          <div class="col-sm-4">
-            <span class="glyphicon glyphicon-lock logo-small"></span>
-            <h4>JOB DONE</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-          </div>
+    <div id="services" class="container-fluid text-center">
+      <h2>SERVICES</h2>
+      <h4>What we offer</h4>
+      <br />
+      <div class="row slide">
+        <div class="col-sm-4">
+          <i class="bi bi-globe"></i>
+          <h4>POWER</h4>
+          <p>Lorem ipsum dolor sit amet..</p>
         </div>
-        <br><br>
-        <div class="row slideanim">
-          <div class="col-sm-4">
-            <span class="glyphicon glyphicon-leaf logo-small"></span>
-            <h4>GREEN</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-          </div>
-          <div class="col-sm-4">
-            <span class="glyphicon glyphicon-certificate logo-small"></span>
-            <h4>CERTIFIED</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-          </div>
-          <div class="col-sm-4">
-            <span class="glyphicon glyphicon-wrench logo-small"></span>
-            <h4 style="color:#303030;">HARD WORK</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-          </div>
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-heart logo-small"></span>
+          <h4>LOVE</h4>
+          <p>Lorem ipsum dolor sit amet..</p>
+        </div>
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-lock logo-small"></span>
+          <h4>JOB DONE</h4>
+          <p>Lorem ipsum dolor sit amet..</p>
         </div>
       </div>
-
+      <br /><br />
+      <div class="row slide">
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-leaf logo-small"></span>
+          <h4>GREEN</h4>
+          <p>Lorem ipsum dolor sit amet..</p>
+        </div>
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-certificate logo-small"></span>
+          <h4>CERTIFIED</h4>
+          <p>Lorem ipsum dolor sit amet..</p>
+        </div>
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-wrench logo-small"></span>
+          <h4 style="color: #303030">HARD WORK</h4>
+          <p>Lorem ipsum dolor sit amet..</p>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js"
+      integrity="sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ=="
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.bundle.min.js"
       integrity="sha512-BOsvKbLb0dB1IVplOL9ptU1EYA+LuCKEluZWRUYG73hxqNBU85JBIBhPGwhQl7O633KtkjMv8lvxZcWP+N3V3w=="
