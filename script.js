@@ -22,7 +22,7 @@ $(document).ready(function(){
   });
   
   $(window).scroll(function() {
-    $(".slide").each(function(){
+    $(".slideanim").each(function(){
       var pos = $(this).offset().top;
 
       var winTop = $(window).scrollTop();
@@ -31,4 +31,4 @@ $(document).ready(function(){
         }
     });
   });
-})
+});
