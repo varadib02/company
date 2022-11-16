@@ -37,12 +37,12 @@ body {
     color: #f4511e;
     font-size: 200px;
   }
-  .thumbnail {
+  .img-thumbnail {
     padding: 0 0 15px 0;
     border: none;
     border-radius: 0;
   }
-  .thumbnail img {
+  .img-thumbnail img {
     width: 100%;
     height: 100%;
     margin-bottom: 10px;
@@ -53,10 +53,10 @@ body {
     color: #f4511e;
     
   }
-  .carousel-indicators li {
+  .carousel-indicators button {
     border-color: #f4511e;
   }
-  .carousel-indicators li.active {
+  .carousel-indicators button.active {
     background-color: #f4511e;
   }
   .carousel-item h4 {
@@ -130,15 +130,15 @@ body {
     color: #fff !important;
   }
   .col-sm-4 svg{
-    max-width: 200px;
-    max-height: 200px;
+    width: 200px;
+    height: 200px;
   }
   #services svg{
     height: 50px;
     width: 50px;
   }
 
-  footer svg{
+  footer i{
     font-size: 20px;
     margin-bottom: 20px;
     color: #f4511e;
